@@ -1,11 +1,18 @@
-import ListGroup from "./components/ListGroup";
+import { Grid, GridItem } from '@chakra-ui/react'
 
 function App() {
-  const items = ["New York", "London", "Paris", "Tokyo", "Hong Kong"];
+  
   return (
-    <div>
-      <ListGroup items={items} heading="Cities" />
-    </div>
+    <>
+    <Grid templateAreas={{
+      base: `"nav" "main"`,
+      lg: `"nav nav" "aside main"`,
+    }} >
+      <GridItem area='nav' bg='coral'>Nav</GridItem>
+      <GridItem area='aside' bg='gold'>Aside</GridItem>
+      <GridItem area='main' bg='blue'>Main</GridItem>
+    </Grid>
+    </>
   );
 }
 

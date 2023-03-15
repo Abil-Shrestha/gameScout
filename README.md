@@ -1,4 +1,4 @@
 # Gamehub
-Discover your favourite games 
-Building this to improve my knowledge of Typescript
+Discover your favourite games <br/>
+Building this to improve my knowledge of Typescript <br/>
 Chakra UI for styling.

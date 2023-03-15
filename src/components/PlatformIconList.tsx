@@ -9,6 +9,7 @@ import { IconType } from 'react-icons/lib';
 interface Props{
     platforms:Platform[];
 }
+
 const PlatformIconList = ({ platforms }:Props) => {
   const iconMap: {[key: string]: IconType} = {
     pc:FaWindows,

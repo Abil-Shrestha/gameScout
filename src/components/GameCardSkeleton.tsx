@@ -1,6 +1,6 @@
-import { Skeleton, CardBody, Card, SkeletonText } from "@chakra-ui/react";
+import { Card, CardBody, Skeleton, SkeletonText } from '@chakra-ui/react'
 
-const GameCarsSkeleton = () => {
+const GameCardSkeleton = () => {
   return (
     <Card>
       <Skeleton height="200px" />
@@ -8,7 +8,7 @@ const GameCarsSkeleton = () => {
         <SkeletonText />
       </CardBody>
     </Card>
-  );
-};
+  )
+}
 
-export default GameCarsSkeleton;
+export default GameCardSkeleton

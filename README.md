@@ -10,7 +10,7 @@
   
 <h4>
     <span> · </span>
-    <a href="https://tripguide-capstone-jsm.vercel.app/" target="blank">View Demo</a>
+    <a href="https://gamescout.vercel.app/" target="blank">View Demo</a>
     <span> · </span>
   </h4>
 </div>

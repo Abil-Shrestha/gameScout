@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="/public/Game_Scout.jpg" alt="logo" height="auto" />
+  <img src="/public/Game_Scout.jpg" alt="logo" height="350px" />
   <h1>GameScout</h1>
   
   <p>
